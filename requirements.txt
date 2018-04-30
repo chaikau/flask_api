@@ -1,0 +1,6 @@
+flask
+sqlalchemy
+gunicorn
+bcrypt
+itsdangerous
+flask_cache
