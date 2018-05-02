@@ -1,6 +1,5 @@
 *.pyc
 *.log
-*.log.*
 Logging.py
 .idea
 __pycache__
