@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-    @version:  python 3.6
-    @FileName: auth.py
-    @Author:   chaikau
-    @Time：    2018-03-24 19:39
-    @Description: resource api with flask simple style
-"""
 
 from lib.Logging import Logging
 from flask import Blueprint, request, g
