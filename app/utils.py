@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-    @version:  python 3.6
-    @FileName: models.py
-    @Author:   chaikau
-    @Time：    2018-03-24 19:39
-    @Description: flask helper
-"""
 
 from flask import request, jsonify, g, Response
 from .meta import user_db, data_db
