@@ -1,11 +1,5 @@
 #!/usr/bin/env python3
 # encoding: utf-8
-"""
-    @version:  python 3.6
-    @FileName: flask_mysql.py
-    @Author:   Piwenwu
-    @Description: flask mysql extension, support multi database connections by config_prefix
-"""
 
 from flask import current_app
 from sqlalchemy import create_engine, exc, event, select
