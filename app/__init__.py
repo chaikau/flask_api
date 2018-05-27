@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-    @version:  python 3.6
-    @FileName: app.py
-    @Author:   chaikau
-    @Time:     2018-04-30 18:39
-    @Version:  2.0
-    @Description:
-"""
 
 from flask import Flask, redirect, url_for
 from .utils import make_db_session, log_request, teardown_db_session
